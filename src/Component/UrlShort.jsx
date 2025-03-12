@@ -64,7 +64,7 @@ const UrlShortener = () => {
           <div className="mt-6 text-center">
             <p className="text-lg text-gray-800">Your shortened URL:</p>
             <a
-              href={shortenedUrl}
+              href={originalUrl}
               className="text-blue-600 hover:text-blue-800"
               target="_blank"
               rel="noopener noreferrer"
